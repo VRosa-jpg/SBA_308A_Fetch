@@ -1,0 +1,38 @@
+
+
+
+body {
+    background-color: rgba(103, 74, 35, 0.641);
+}
+
+nav {
+    background-color: rgb(55, 47, 47);
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+}
+
+.section {
+    width: 50%;
+}
+
+.right{
+    background-color: rgb(85, 55, 36);
+}
+
+.left {
+    background-color: rgb(115, 110, 94);
+}
+
+.middle {
+    display:flex;
+    justify-content: center;
+    background-image: url("https://www.thesprucepets.com/thmb/OzX-rVekHobJ91SLMMJc8eEvy3M=/2256x0/filters:no_upscale():strip_icc()/Beauceron-GettyImages-490105934-25ae952c09734ac58ea04dd2154d16d7.jpg");
+}
+
+#mid_section{
+    display: flex;
+    flex-direction: column;
+}

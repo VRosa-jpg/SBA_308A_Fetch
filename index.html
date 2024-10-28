@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Axios HTTP Request -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="main.js"></script>
+    <!-- Styling -->
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Dog Lovers</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Dog Lovers</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Explore</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Breeds</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Learn more</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="top">
+        <div class="section left">
+            <h1>Hello my name could be...</h1>
+
+        </div>
+        <div class="section right">
+            <h1>Hello</h1>
+        </div>
+    </div>
+    
+    <div class="middle">
+        <h1>Take me home</h1>
+    </div>
+
+    <div id="mid_section">
+        <input type="text" id="breedInput" placeholder="Enter dog breed">
+        <button id="pickYourDog">Choose A Dog</button>
+        <div id="dogPicture"></div>
+    </div>
+</body>
+</html>
