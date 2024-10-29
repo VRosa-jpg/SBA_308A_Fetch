@@ -30,6 +30,7 @@ nav {
     display:flex;
     justify-content: center;
     background-image: url("https://www.thesprucepets.com/thmb/OzX-rVekHobJ91SLMMJc8eEvy3M=/2256x0/filters:no_upscale():strip_icc()/Beauceron-GettyImages-490105934-25ae952c09734ac58ea04dd2154d16d7.jpg");
+    height: 400px;
 }
 
 #mid_section{

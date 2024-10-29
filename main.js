@@ -1,11 +1,6 @@
 
 console.log("JS IS WORKING")
 
-const API_KEY ="live_rrPbsDH8CfNWm0e8Ay4QBA2Q8RUbB7zW4hX7QILeB5nZrXSVcK1oT5QoNiokvfQN"
-
-
-const BASE_URL = "https://dog.ceo/api/breed/hound/images/random";
-
 // Select the elements we are going to use
 const button = document.querySelector("#pickYourDog");
 const breedInput = document.querySelector("#breedInput");
@@ -33,5 +28,5 @@ button.addEventListener('click', async () => {
 });
 
 middle_class.addEventListener('reload', async () => {
-    
+
 })
